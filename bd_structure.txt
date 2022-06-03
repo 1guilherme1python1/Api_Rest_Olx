@@ -1,0 +1,31 @@
+users
+-_id
+-name
+-email
+-state
+-passwordhash
+-token
+
+states
+-_id
+-name
+
+categories
+-_id
+-name
+-slug
+
+
+ads
+-_id
+-idUser
+-state
+-category
+-images[{url, default:true}]
+-datacreated
+-title
+-price
+-priceNegotiable: true
+-description
+-views
+-status

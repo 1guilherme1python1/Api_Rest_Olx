@@ -1,0 +1,51 @@
+{
+  "name": "api_rest_olx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1guilherme1python1/Api_Rest_Olx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1guilherme1python1/Api_Rest_Olx/issues"
+  },
+  "homepage": "https://github.com/1guilherme1python1/Api_Rest_Olx#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.1",
+    "jimp": "^0.16.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.5-lts.1",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "sharp": "^0.30.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/express-fileupload": "^1.2.2",
+    "@types/express-validator": "^3.0.0",
+    "@types/jimp": "^0.2.28",
+    "@types/mongoose": "^5.11.97",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^17.0.35",
+    "@types/nodemon": "^1.19.1",
+    "@types/sharp": "^0.30.2",
+    "@types/uuid": "^8.3.4"
+  }
+}
